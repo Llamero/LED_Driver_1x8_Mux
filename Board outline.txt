@@ -1,0 +1,18 @@
+Driver side:
+*Thermistor + Fan PWM + 2x digital input to cycle thermistor 
+*Channel select
+
+LED side:
+
+*Thermistor
+4x Molex - Fan PWM + Fan Power
+4x LED quick connect
+
+
+Other:
+2x digital out BNC breakout
+12V barrel connector
+
+NOTES:
+Breakout PWM and fan 12V to all fans
+then cycle each LED thermistor being monitored - set fan speed for warmest LED
