@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L power:GND #PWR087
 U 1 1 5F6F3BA1
-P 9350 8550
-F 0 "#PWR087" H 9350 8300 50  0001 C CNN
-F 1 "GND" H 9450 8400 50  0000 R CNN
-F 2 "" H 9350 8550 50  0001 C CNN
-F 3 "" H 9350 8550 50  0001 C CNN
-	1    9350 8550
-	-1   0    0    1   
+P 1150 3100
+F 0 "#PWR087" H 1150 2850 50  0001 C CNN
+F 1 "GND" H 1250 2950 50  0000 R CNN
+F 2 "" H 1150 3100 50  0001 C CNN
+F 3 "" H 1150 3100 50  0001 C CNN
+	1    1150 3100
+	1    0    0    1   
 $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
@@ -40,15 +40,15 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 3 1 5F57B5E3
-P 9350 9050
-F 0 "J3" H 9450 9700 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 9700 9600 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 9350 9075 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 9350 9075 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 9350 9050 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 9350 9050 50  0001 C CNN "Part #"
-	3    9350 9050
-	-1   0    0    1   
+P 1150 3600
+F 0 "J3" H 1250 4250 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 1500 4150 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 3625 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 3625 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 1150 3600 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 1150 3600 50  0001 C CNN "Part #"
+	3    1150 3600
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR014
@@ -88,34 +88,34 @@ $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5FF69CC3
-P 3750 8900
-F 0 "LOGO1" H 3750 9175 50  0001 C CNN
-F 1 "CC license" H 3550 9200 50  0000 L CNN
-F 2 "Custom Footprints:Creative_commons_license" H 3750 8900 50  0001 C CNN
-F 3 "~" H 3750 8900 50  0001 C CNN
-	1    3750 8900
+P 3500 7450
+F 0 "LOGO1" H 3500 7725 50  0001 C CNN
+F 1 "CC license" H 3300 7750 50  0000 L CNN
+F 2 "Custom Footprints:Creative_commons_license" H 3500 7450 50  0001 C CNN
+F 3 "~" H 3500 7450 50  0001 C CNN
+	1    3500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 5FF6ADDD
-P 4250 8900
-F 0 "LOGO2" H 4250 9175 50  0001 C CNN
-F 1 "Jack Polarity" H 4000 9200 50  0000 L CNN
-F 2 "Custom Footprints:Polarity_Center_Positive" H 4250 8900 50  0001 C CNN
-F 3 "~" H 4250 8900 50  0001 C CNN
-	1    4250 8900
+P 4000 7450
+F 0 "LOGO2" H 4000 7725 50  0001 C CNN
+F 1 "Jack Polarity" H 3750 7750 50  0000 L CNN
+F 2 "Custom Footprints:Polarity_Center_Positive" H 4000 7450 50  0001 C CNN
+F 3 "~" H 4000 7450 50  0001 C CNN
+	1    4000 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 5FF6B1EE
-P 4750 8900
-F 0 "LOGO3" H 4750 9175 50  0001 C CNN
-F 1 "OSHW Logo" H 4550 9200 50  0000 L CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 4750 8900 50  0001 C CNN
-F 3 "~" H 4750 8900 50  0001 C CNN
-	1    4750 8900
+P 4500 7450
+F 0 "LOGO3" H 4500 7725 50  0001 C CNN
+F 1 "OSHW Logo" H 4300 7750 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 4500 7450 50  0001 C CNN
+F 3 "~" H 4500 7450 50  0001 C CNN
+	1    4500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -131,34 +131,34 @@ F 5 "RJSSE-5380-04" H 7300 6150 50  0001 C CNN "Part #"
 	1    7300 6150
 	-1   0    0    1   
 $EndComp
-Connection ~ 3900 2650
+Connection ~ 2600 3000
 Wire Wire Line
-	3900 2550 3900 2650
+	2600 2900 2600 3000
 $Comp
 L power:GND #PWR0108
 U 1 1 61A65F9D
-P 3900 2650
-F 0 "#PWR0108" H 3900 2400 50  0001 C CNN
-F 1 "GND" H 4100 2550 50  0000 R CNN
-F 2 "" H 3900 2650 50  0001 C CNN
-F 3 "" H 3900 2650 50  0001 C CNN
-	1    3900 2650
+P 2600 3000
+F 0 "#PWR0108" H 2600 2750 50  0001 C CNN
+F 1 "GND" H 2800 2900 50  0000 R CNN
+F 2 "" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	1    2600 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Barrel_Jack_Switch J1
 U 1 1 61A65FA5
-P 3600 2550
-F 0 "J1" H 3657 2867 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 3657 2776 50  0000 C CNN
-F 2 "Custom Footprints:DC-jack_54-00165" H 3650 2510 50  0001 C CNN
-F 3 "https://tensility.s3-us-west-2.amazonaws.com/uploads/product_doc/document/4054/54-00165.pdf" H 3650 2510 50  0001 C CNN
-F 4 "Tensility International Corp" H 3600 2550 50  0001 C CNN "Manufacturer"
-F 5 "54-00165" H 3600 2550 50  0001 C CNN "Part #"
-	1    3600 2550
+P 2300 2900
+F 0 "J1" H 2357 3217 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 2357 3126 50  0000 C CNN
+F 2 "Custom Footprints:DC-jack_54-00165" H 2350 2860 50  0001 C CNN
+F 3 "https://tensility.s3-us-west-2.amazonaws.com/uploads/product_doc/document/4054/54-00165.pdf" H 2350 2860 50  0001 C CNN
+F 4 "Tensility International Corp" H 2300 2900 50  0001 C CNN "Manufacturer"
+F 5 "54-00165" H 2300 2900 50  0001 C CNN "Part #"
+	1    2300 2900
 	1    0    0    -1  
 $EndComp
-Text Label 3900 2450 0    50   ~ 0
+Text Label 2600 2800 0    50   ~ 0
 +18V
 $Comp
 L power:GND #PWR015
@@ -218,70 +218,70 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6179BB3F
-P 3650 9300
-F 0 "H1" H 3600 9450 50  0000 L CNN
-F 1 "MountingHole" H 3450 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 3650 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3650 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 3650 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 3650 9300 50  0001 C CNN "Part #"
-	1    3650 9300
+P 3400 7850
+F 0 "H1" H 3350 8000 50  0000 L CNN
+F 1 "MountingHole" H 3200 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3400 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3400 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3400 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3400 7850 50  0001 C CNN "Part #"
+	1    3400 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 619A97A9
-P 3800 9300
-F 0 "H2" H 3750 9450 50  0000 L CNN
-F 1 "MountingHole" H 3600 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 3800 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3800 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 3800 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 3800 9300 50  0001 C CNN "Part #"
-	1    3800 9300
+P 3550 7850
+F 0 "H2" H 3500 8000 50  0000 L CNN
+F 1 "MountingHole" H 3350 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3550 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3550 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3550 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3550 7850 50  0001 C CNN "Part #"
+	1    3550 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 619A9D41
-P 3950 9300
-F 0 "H3" H 3900 9450 50  0000 L CNN
-F 1 "MountingHole" H 3750 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 3950 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3950 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 3950 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 3950 9300 50  0001 C CNN "Part #"
-	1    3950 9300
+P 3700 7850
+F 0 "H3" H 3650 8000 50  0000 L CNN
+F 1 "MountingHole" H 3500 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3700 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3700 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3700 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3700 7850 50  0001 C CNN "Part #"
+	1    3700 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 619AA1F6
-P 4100 9300
-F 0 "H4" H 4050 9450 50  0000 L CNN
-F 1 "MountingHole" H 3900 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 4100 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 4100 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 4100 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 4100 9300 50  0001 C CNN "Part #"
-	1    4100 9300
+P 3850 7850
+F 0 "H4" H 3800 8000 50  0000 L CNN
+F 1 "MountingHole" H 3650 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3850 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3850 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3850 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3850 7850 50  0001 C CNN "Part #"
+	1    3850 7850
 	1    0    0    -1  
 $EndComp
-Text Label 8950 8850 2    50   ~ 0
+Text Label 1550 3400 0    50   ~ 0
 LED-
-Text Label 8950 9050 2    50   ~ 0
+Text Label 1550 3600 0    50   ~ 0
 LED-
-Text Label 8950 9250 2    50   ~ 0
+Text Label 1550 3800 0    50   ~ 0
 LED-
-Text Label 8950 9450 2    50   ~ 0
+Text Label 1550 4000 0    50   ~ 0
 LED-
-Text Label 8950 8750 2    50   ~ 0
+Text Label 1550 3300 0    50   ~ 0
 LED+
-Text Label 8950 8950 2    50   ~ 0
+Text Label 1550 3500 0    50   ~ 0
 LED+
-Text Label 8950 9150 2    50   ~ 0
+Text Label 1550 3700 0    50   ~ 0
 LED+
-Text Label 8950 9350 2    50   ~ 0
+Text Label 1550 3900 0    50   ~ 0
 LED+
 Text Label 6900 3850 2    50   ~ 0
 LED-
@@ -308,84 +308,84 @@ LED8+
 $Comp
 L Custom_parts:PXO7805-500-M-TR PS?
 U 1 1 64EDC858
-P 4900 2500
-F 0 "PS?" H 4925 2765 50  0000 C CNN
-F 1 "PXO7805-500-M-TR" H 4925 2674 50  0000 C CNN
-F 2 "CONV_PXO7805-500-M-TR" H 4400 2200 50  0001 L BNN
-F 3 "https://www.cui.com/product/resource/pxo78-500-m.pdf" H 5000 2500 50  0001 L BNN
-F 4 "CUI Inc." H 4900 2500 50  0001 C CNN "Manufacturer"
-F 5 "PXO7805-500-M-TR" H 4900 2500 50  0001 C CNN "Part #"
-	1    4900 2500
+P 3600 2850
+F 0 "PS?" H 3625 3115 50  0000 C CNN
+F 1 "PXO7805-500-M-TR" H 3625 3024 50  0000 C CNN
+F 2 "CONV_PXO7805-500-M-TR" H 3100 2550 50  0001 L BNN
+F 3 "https://www.cui.com/product/resource/pxo78-500-m.pdf" H 3700 2850 50  0001 L BNN
+F 4 "CUI Inc." H 3600 2850 50  0001 C CNN "Manufacturer"
+F 5 "PXO7805-500-M-TR" H 3600 2850 50  0001 C CNN "Part #"
+	1    3600 2850
 	1    0    0    -1  
 $EndComp
-Text Label 5250 2450 0    50   ~ 0
+Text Label 3950 2800 0    50   ~ 0
 +5V
 $Comp
 L power:GND #PWR?
 U 1 1 64EE383E
-P 4200 2750
-F 0 "#PWR?" H 4200 2500 50  0001 C CNN
-F 1 "GND" H 4400 2650 50  0000 R CNN
-F 2 "" H 4200 2750 50  0001 C CNN
-F 3 "" H 4200 2750 50  0001 C CNN
-	1    4200 2750
+P 2900 3100
+F 0 "#PWR?" H 2900 2850 50  0001 C CNN
+F 1 "GND" H 3100 3000 50  0000 R CNN
+F 2 "" H 2900 3100 50  0001 C CNN
+F 3 "" H 2900 3100 50  0001 C CNN
+	1    2900 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 64EE65BC
-P 4600 2550
-F 0 "#PWR?" H 4600 2300 50  0001 C CNN
-F 1 "GND" H 4800 2450 50  0000 R CNN
-F 2 "" H 4600 2550 50  0001 C CNN
-F 3 "" H 4600 2550 50  0001 C CNN
-	1    4600 2550
+P 3300 2900
+F 0 "#PWR?" H 3300 2650 50  0001 C CNN
+F 1 "GND" H 3500 2800 50  0000 R CNN
+F 2 "" H 3300 2900 50  0001 C CNN
+F 3 "" H 3300 2900 50  0001 C CNN
+	1    3300 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 64EE98B9
-P 5400 2600
-F 0 "C?" H 5515 2646 50  0000 L CNN
-F 1 "22µF" H 5515 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5438 2450 50  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 5400 2600 50  0001 C CNN
-F 4 "TDK Corporation" H 5400 2600 50  0001 C CNN "Manufacturer"
-F 5 "C3216X5R1V226M160AC" H 5400 2600 50  0001 C CNN "Part #"
-	1    5400 2600
+P 4100 2950
+F 0 "C?" H 4215 2996 50  0000 L CNN
+F 1 "22µF" H 4215 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4138 2800 50  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4100 2950 50  0001 C CNN
+F 4 "TDK Corporation" H 4100 2950 50  0001 C CNN "Manufacturer"
+F 5 "C3216X5R1V226M160AC" H 4100 2950 50  0001 C CNN "Part #"
+	1    4100 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 64EE98BF
-P 5400 2750
-F 0 "#PWR?" H 5400 2500 50  0001 C CNN
-F 1 "GND" H 5600 2650 50  0000 R CNN
-F 2 "" H 5400 2750 50  0001 C CNN
-F 3 "" H 5400 2750 50  0001 C CNN
-	1    5400 2750
+P 4100 3100
+F 0 "#PWR?" H 4100 2850 50  0001 C CNN
+F 1 "GND" H 4300 3000 50  0000 R CNN
+F 2 "" H 4100 3100 50  0001 C CNN
+F 3 "" H 4100 3100 50  0001 C CNN
+	1    4100 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 2450 5400 2450
+	3950 2800 4100 2800
 $Comp
 L Device:C C?
 U 1 1 64EEB8D5
-P 4200 2600
-F 0 "C?" H 4315 2646 50  0000 L CNN
-F 1 "22µF" H 4315 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4238 2450 50  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4200 2600 50  0001 C CNN
-F 4 "TDK Corporation" H 4200 2600 50  0001 C CNN "Manufacturer"
-F 5 "C3216X5R1V226M160AC" H 4200 2600 50  0001 C CNN "Part #"
-	1    4200 2600
+P 2900 2950
+F 0 "C?" H 3015 2996 50  0000 L CNN
+F 1 "22µF" H 3015 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2938 2800 50  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2900 2950 50  0001 C CNN
+F 4 "TDK Corporation" H 2900 2950 50  0001 C CNN "Manufacturer"
+F 5 "C3216X5R1V226M160AC" H 2900 2950 50  0001 C CNN "Part #"
+	1    2900 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 2450 4200 2450
+	2600 2800 2900 2800
 Wire Wire Line
-	4200 2450 4600 2450
-Connection ~ 4200 2450
+	2900 2800 3300 2800
+Connection ~ 2900 2800
 $Comp
 L power:GND #PWR0102
 U 1 1 61954A86
@@ -726,8 +726,10 @@ U 1 1 64FF7275
 P 2150 4800
 F 0 "U?" H 2650 5057 60  0000 C CNN
 F 1 "SN74LV138AT_D_16" H 2650 4951 60  0000 C CNN
-F 2 "D16" H 3250 5040 60  0001 C CNN
-F 3 "" H 2150 4800 60  0000 C CNN
+F 2 "Custom Footprints:SN74LV138ATD" H 3250 5040 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv138at.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1692988628846&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lv138at" H 2150 4800 60  0001 C CNN
+F 4 "Texas Instruments" H 2150 4800 50  0001 C CNN "Manufacturer"
+F 5 "SN74LV138ATD" H 2150 4800 50  0001 C CNN "Part #"
 	1    2150 4800
 	1    0    0    -1  
 $EndComp

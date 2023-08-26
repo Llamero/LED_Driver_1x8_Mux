@@ -88,34 +88,34 @@ $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5FF69CC3
-P 3750 8900
-F 0 "LOGO1" H 3750 9175 50  0001 C CNN
-F 1 "CC license" H 3550 9200 50  0000 L CNN
-F 2 "Custom Footprints:Creative_commons_license" H 3750 8900 50  0001 C CNN
-F 3 "~" H 3750 8900 50  0001 C CNN
-	1    3750 8900
+P 3500 7450
+F 0 "LOGO1" H 3500 7725 50  0001 C CNN
+F 1 "CC license" H 3300 7750 50  0000 L CNN
+F 2 "Custom Footprints:Creative_commons_license" H 3500 7450 50  0001 C CNN
+F 3 "~" H 3500 7450 50  0001 C CNN
+	1    3500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 5FF6ADDD
-P 4250 8900
-F 0 "LOGO2" H 4250 9175 50  0001 C CNN
-F 1 "Jack Polarity" H 4000 9200 50  0000 L CNN
-F 2 "Custom Footprints:Polarity_Center_Positive" H 4250 8900 50  0001 C CNN
-F 3 "~" H 4250 8900 50  0001 C CNN
-	1    4250 8900
+P 4000 7450
+F 0 "LOGO2" H 4000 7725 50  0001 C CNN
+F 1 "Jack Polarity" H 3750 7750 50  0000 L CNN
+F 2 "Custom Footprints:Polarity_Center_Positive" H 4000 7450 50  0001 C CNN
+F 3 "~" H 4000 7450 50  0001 C CNN
+	1    4000 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 5FF6B1EE
-P 4750 8900
-F 0 "LOGO3" H 4750 9175 50  0001 C CNN
-F 1 "OSHW Logo" H 4550 9200 50  0000 L CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 4750 8900 50  0001 C CNN
-F 3 "~" H 4750 8900 50  0001 C CNN
-	1    4750 8900
+P 4500 7450
+F 0 "LOGO3" H 4500 7725 50  0001 C CNN
+F 1 "OSHW Logo" H 4300 7750 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 4500 7450 50  0001 C CNN
+F 3 "~" H 4500 7450 50  0001 C CNN
+	1    4500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -218,53 +218,53 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6179BB3F
-P 3650 9300
-F 0 "H1" H 3600 9450 50  0000 L CNN
-F 1 "MountingHole" H 3450 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 3650 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3650 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 3650 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 3650 9300 50  0001 C CNN "Part #"
-	1    3650 9300
+P 3400 7850
+F 0 "H1" H 3350 8000 50  0000 L CNN
+F 1 "MountingHole" H 3200 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3400 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3400 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3400 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3400 7850 50  0001 C CNN "Part #"
+	1    3400 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 619A97A9
-P 3800 9300
-F 0 "H2" H 3750 9450 50  0000 L CNN
-F 1 "MountingHole" H 3600 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 3800 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3800 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 3800 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 3800 9300 50  0001 C CNN "Part #"
-	1    3800 9300
+P 3550 7850
+F 0 "H2" H 3500 8000 50  0000 L CNN
+F 1 "MountingHole" H 3350 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3550 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3550 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3550 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3550 7850 50  0001 C CNN "Part #"
+	1    3550 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 619A9D41
-P 3950 9300
-F 0 "H3" H 3900 9450 50  0000 L CNN
-F 1 "MountingHole" H 3750 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 3950 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3950 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 3950 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 3950 9300 50  0001 C CNN "Part #"
-	1    3950 9300
+P 3700 7850
+F 0 "H3" H 3650 8000 50  0000 L CNN
+F 1 "MountingHole" H 3500 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3700 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3700 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3700 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3700 7850 50  0001 C CNN "Part #"
+	1    3700 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 619AA1F6
-P 4100 9300
-F 0 "H4" H 4050 9450 50  0000 L CNN
-F 1 "MountingHole" H 3900 9150 50  0001 L CNN
-F 2 "Custom Footprints:14-20_standoff" H 4100 9300 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 4100 9300 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 4100 9300 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 4100 9300 50  0001 C CNN "Part #"
-	1    4100 9300
+P 3850 7850
+F 0 "H4" H 3800 8000 50  0000 L CNN
+F 1 "MountingHole" H 3650 7700 50  0001 L CNN
+F 2 "Custom Footprints:14-20_standoff" H 3850 7850 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 3850 7850 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 3850 7850 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 3850 7850 50  0001 C CNN "Part #"
+	1    3850 7850
 	1    0    0    -1  
 $EndComp
 Text Label 1550 3400 0    50   ~ 0
@@ -306,10 +306,10 @@ LED7+
 Text Label 6900 6450 2    50   ~ 0
 LED8+
 $Comp
-L Custom_parts:PXO7805-500-M-TR PS?
+L Custom_parts:PXO7805-500-M-TR PS1
 U 1 1 64EDC858
 P 3600 2850
-F 0 "PS?" H 3625 3115 50  0000 C CNN
+F 0 "PS1" H 3625 3115 50  0000 C CNN
 F 1 "PXO7805-500-M-TR" H 3625 3024 50  0000 C CNN
 F 2 "CONV_PXO7805-500-M-TR" H 3100 2550 50  0001 L BNN
 F 3 "https://www.cui.com/product/resource/pxo78-500-m.pdf" H 3700 2850 50  0001 L BNN
@@ -321,10 +321,10 @@ $EndComp
 Text Label 3950 2800 0    50   ~ 0
 +5V
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 64EE383E
 P 2900 3100
-F 0 "#PWR?" H 2900 2850 50  0001 C CNN
+F 0 "#PWR0101" H 2900 2850 50  0001 C CNN
 F 1 "GND" H 3100 3000 50  0000 R CNN
 F 2 "" H 2900 3100 50  0001 C CNN
 F 3 "" H 2900 3100 50  0001 C CNN
@@ -332,10 +332,10 @@ F 3 "" H 2900 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 64EE65BC
 P 3300 2900
-F 0 "#PWR?" H 3300 2650 50  0001 C CNN
+F 0 "#PWR0103" H 3300 2650 50  0001 C CNN
 F 1 "GND" H 3500 2800 50  0000 R CNN
 F 2 "" H 3300 2900 50  0001 C CNN
 F 3 "" H 3300 2900 50  0001 C CNN
@@ -343,10 +343,10 @@ F 3 "" H 3300 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 64EE98B9
 P 4100 2950
-F 0 "C?" H 4215 2996 50  0000 L CNN
+F 0 "C3" H 4215 2996 50  0000 L CNN
 F 1 "22µF" H 4215 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4138 2800 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4100 2950 50  0001 C CNN
@@ -356,10 +356,10 @@ F 5 "C3216X5R1V226M160AC" H 4100 2950 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 64EE98BF
 P 4100 3100
-F 0 "#PWR?" H 4100 2850 50  0001 C CNN
+F 0 "#PWR0104" H 4100 2850 50  0001 C CNN
 F 1 "GND" H 4300 3000 50  0000 R CNN
 F 2 "" H 4100 3100 50  0001 C CNN
 F 3 "" H 4100 3100 50  0001 C CNN
@@ -369,10 +369,10 @@ $EndComp
 Wire Wire Line
 	3950 2800 4100 2800
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 64EEB8D5
 P 2900 2950
-F 0 "C?" H 3015 2996 50  0000 L CNN
+F 0 "C1" H 3015 2996 50  0000 L CNN
 F 1 "22µF" H 3015 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2938 2800 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2900 2950 50  0001 C CNN
@@ -398,10 +398,10 @@ F 3 "" H 4700 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C4
 U 1 1 61940B33
 P 4700 3650
-F 0 "C?" V 4900 3600 50  0000 L CNN
+F 0 "C4" V 4900 3600 50  0000 L CNN
 F 1 "2.2uF" V 4800 3550 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 4700 3650 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 4700 3650 50  0001 C CNN
@@ -411,10 +411,10 @@ F 5 "TWK212B7225MD-T" H 4700 3650 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:TC4468EOE U?
+L Custom_parts:TC4468EOE U2
 U 1 1 64F06EE9
 P 3700 3750
-F 0 "U?" H 4200 4007 60  0000 C CNN
+F 0 "U2" H 4200 4007 60  0000 C CNN
 F 1 "MIC4467YWM-TR" H 4200 3901 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 4800 3990 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4200 3901 60  0001 C CNN
@@ -424,10 +424,10 @@ F 5 "MIC4467YWM-TR" H 3700 3750 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C5
 U 1 1 64F08194
 P 4700 5750
-F 0 "C?" V 4900 5700 50  0000 L CNN
+F 0 "C5" V 4900 5700 50  0000 L CNN
 F 1 "2.2uF" V 4800 5650 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 4700 5750 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 4700 5750 50  0001 C CNN
@@ -437,10 +437,10 @@ F 5 "TWK212B7225MD-T" H 4700 5750 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 64F08F9F
 P 4700 5650
-F 0 "#PWR?" H 4700 5400 50  0001 C CNN
+F 0 "#PWR0105" H 4700 5400 50  0001 C CNN
 F 1 "GND" H 4705 5477 50  0000 C CNN
 F 2 "" H 4700 5650 50  0001 C CNN
 F 3 "" H 4700 5650 50  0001 C CNN
@@ -461,10 +461,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 4350 3700 4450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 64F0C798
 P 3700 4450
-F 0 "#PWR?" H 3700 4200 50  0001 C CNN
+F 0 "#PWR0106" H 3700 4200 50  0001 C CNN
 F 1 "GND" H 3705 4277 50  0000 C CNN
 F 2 "" H 3700 4450 50  0001 C CNN
 F 3 "" H 3700 4450 50  0001 C CNN
@@ -473,10 +473,10 @@ F 3 "" H 3700 4450 50  0001 C CNN
 $EndComp
 Connection ~ 3700 4450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 64F0D706
 P 3700 6550
-F 0 "#PWR?" H 3700 6300 50  0001 C CNN
+F 0 "#PWR0107" H 3700 6300 50  0001 C CNN
 F 1 "GND" H 3705 6377 50  0000 C CNN
 F 2 "" H 3700 6550 50  0001 C CNN
 F 3 "" H 3700 6550 50  0001 C CNN
@@ -484,10 +484,10 @@ F 3 "" H 3700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q?
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q1
 U 1 1 64F4537D
 P 6900 3000
-F 0 "Q?" H 5950 2851 60  0000 C CNN
+F 0 "Q1" H 5950 2851 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 5950 2875 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 5950 2815 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 5950 2851 60  0001 C CNN
@@ -595,10 +595,10 @@ Gate7
 Text Label 5400 6950 2    50   ~ 0
 Gate8
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q?
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q2
 U 1 1 64F7C414
 P 6900 4050
-F 0 "Q?" H 5950 3901 60  0000 C CNN
+F 0 "Q2" H 5950 3901 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 5950 3925 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 5950 3865 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 5950 3901 60  0001 C CNN
@@ -608,10 +608,10 @@ F 5 "IRF9358TRPBF" H 6900 4050 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q?
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q3
 U 1 1 64F7E6DD
 P 6900 5100
-F 0 "Q?" H 5950 4951 60  0000 C CNN
+F 0 "Q3" H 5950 4951 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 5950 4975 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 5950 4915 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 5950 4951 60  0001 C CNN
@@ -621,10 +621,10 @@ F 5 "IRF9358TRPBF" H 6900 5100 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q?
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q4
 U 1 1 64F81FE0
 P 6900 6150
-F 0 "Q?" H 5950 6001 60  0000 C CNN
+F 0 "Q4" H 5950 6001 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 5950 6025 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 5950 5965 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 5950 6001 60  0001 C CNN
@@ -634,10 +634,10 @@ F 5 "IRF9358TRPBF" H 6900 6150 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:TC4468EOE U?
+L Custom_parts:TC4468EOE U3
 U 1 1 64F8812A
 P 3700 5850
-F 0 "U?" H 4200 6107 60  0000 C CNN
+F 0 "U3" H 4200 6107 60  0000 C CNN
 F 1 "MIC4467YWM-TR" H 4200 6001 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 4800 6090 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4200 6001 60  0001 C CNN
@@ -721,13 +721,15 @@ Wire Wire Line
 Wire Wire Line
 	4700 6450 4700 6550
 $Comp
-L Custom_parts:SN74LV138AT_D_16 U?
+L Custom_parts:SN74LV138AT_D_16 U1
 U 1 1 64FF7275
 P 2150 4800
-F 0 "U?" H 2650 5057 60  0000 C CNN
+F 0 "U1" H 2650 5057 60  0000 C CNN
 F 1 "SN74LV138AT_D_16" H 2650 4951 60  0000 C CNN
-F 2 "D16" H 3250 5040 60  0001 C CNN
-F 3 "" H 2150 4800 60  0000 C CNN
+F 2 "Custom Footprints:SN74LV138ATD" H 3250 5040 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv138at.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1692988628846&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lv138at" H 2150 4800 60  0001 C CNN
+F 4 "Texas Instruments" H 2150 4800 50  0001 C CNN "Manufacturer"
+F 5 "SN74LV138ATD" H 2150 4800 50  0001 C CNN "Part #"
 	1    2150 4800
 	1    0    0    -1  
 $EndComp
@@ -762,10 +764,10 @@ Text Label 2150 5300 2    50   ~ 0
 Wire Wire Line
 	2150 5100 2150 5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 6500C486
 P 2150 5150
-F 0 "#PWR?" H 2150 4900 50  0001 C CNN
+F 0 "#PWR0109" H 2150 4900 50  0001 C CNN
 F 1 "GND" H 2155 4977 50  0000 C CNN
 F 2 "" H 2150 5150 50  0001 C CNN
 F 3 "" H 2150 5150 50  0001 C CNN
@@ -776,10 +778,10 @@ Connection ~ 2150 5150
 Wire Wire Line
 	2150 5150 2150 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 6500D4A1
 P 2150 5500
-F 0 "#PWR?" H 2150 5250 50  0001 C CNN
+F 0 "#PWR0110" H 2150 5250 50  0001 C CNN
 F 1 "GND" H 2155 5327 50  0000 C CNN
 F 2 "" H 2150 5500 50  0001 C CNN
 F 3 "" H 2150 5500 50  0001 C CNN
@@ -815,11 +817,6 @@ Wire Wire Line
 	2050 5400 2050 5750
 Wire Wire Line
 	2050 5750 3300 5750
-Wire Wire Line
-	3300 5750 3300 6450
-Wire Wire Line
-	3300 6450 3700 6450
-Connection ~ 3700 6450
 Text Label 2150 4800 2    50   ~ 0
 OUT1
 Text Label 2150 4900 2    50   ~ 0
@@ -859,10 +856,10 @@ Wire Wire Line
 Text Label 1550 5300 0    50   ~ 0
 Thermistor
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 65045288
 P 3150 4500
-F 0 "#PWR?" H 3150 4250 50  0001 C CNN
+F 0 "#PWR0111" H 3150 4250 50  0001 C CNN
 F 1 "GND" H 3155 4327 50  0000 C CNN
 F 2 "" H 3150 4500 50  0001 C CNN
 F 3 "" H 3150 4500 50  0001 C CNN
@@ -870,10 +867,10 @@ F 3 "" H 3150 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 65045290
 P 3150 4600
-F 0 "C?" V 3350 4550 50  0000 L CNN
+F 0 "C2" V 3350 4550 50  0000 L CNN
 F 1 "2.2uF" V 3250 4500 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 3150 4600 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 3150 4600 50  0001 C CNN
@@ -884,4 +881,11 @@ F 5 "TWK212B7225MD-T" H 3150 4600 50  0001 C CNN "Part #"
 $EndComp
 Wire Wire Line
 	3150 4800 3150 4700
+Wire Wire Line
+	4700 6800 3300 6800
+Wire Wire Line
+	3300 5750 3300 6800
+Wire Wire Line
+	4700 6550 4700 6800
+Connection ~ 4700 6550
 $EndSCHEMATC
