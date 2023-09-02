@@ -27,19 +27,6 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 4 1 5F58DBB9
-P 1150 3600
-F 0 "J3" H 1250 4250 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 1500 4150 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 3625 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 3625 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 1150 3600 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 1150 3600 50  0001 C CNN "Part #"
-	4    1150 3600
-	1    0    0    1   
-$EndComp
-$Comp
-L Custom_parts:8P8C_Shielded_x4 J3
-U 3 1 5F57B5E3
 P 1150 5000
 F 0 "J3" H 1250 5650 50  0000 R CNN
 F 1 "8P8C_Shielded_x4" H 1500 5550 50  0000 R CNN
@@ -47,7 +34,20 @@ F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 5025 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 5025 50  0001 C CNN
 F 4 "Amphenol ICC (Commercial Products)" H 1150 5000 50  0001 C CNN "Manufacturer"
 F 5 "RJSSE-5380-04" H 1150 5000 50  0001 C CNN "Part #"
-	3    1150 5000
+	4    1150 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Custom_parts:8P8C_Shielded_x4 J3
+U 3 1 5F57B5E3
+P 1150 3600
+F 0 "J3" H 1250 4250 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 1500 4150 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 3625 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 3625 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 1150 3600 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 1150 3600 50  0001 C CNN "Part #"
+	3    1150 3600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -205,17 +205,6 @@ F 3 "" H 1550 5200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR0116
-U 1 1 61B67D76
-P 1550 5400
-F 0 "#PWR0116" H 1550 5150 50  0001 C CNN
-F 1 "GND" V 1550 5250 50  0000 R CNN
-F 2 "" H 1550 5400 50  0001 C CNN
-F 3 "" H 1550 5400 50  0001 C CNN
-	1    1550 5400
-	0    -1   1    0   
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 6179BB3F
 P 3400 7850
@@ -343,10 +332,10 @@ F 3 "" H 3300 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C2
 U 1 1 64EE98B9
 P 4100 2950
-F 0 "C3" H 4215 2996 50  0000 L CNN
+F 0 "C2" H 4215 2996 50  0000 L CNN
 F 1 "22µF" H 4215 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4138 2800 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4100 2950 50  0001 C CNN
@@ -415,7 +404,7 @@ L Custom_parts:TC4468EOE U2
 U 1 1 64F06EE9
 P 3700 3750
 F 0 "U2" H 4200 4007 60  0000 C CNN
-F 1 "MIC4467YWM-TR" H 4200 3901 60  0000 C CNN
+F 1 "TC4468EOE" H 4200 3901 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 4800 3990 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4200 3901 60  0001 C CNN
 F 4 "Microchip Technology" H 3700 3750 50  0001 C CNN "Manufacturer"
@@ -633,19 +622,6 @@ F 5 "IRF9358TRPBF" H 6900 6150 50  0001 C CNN "Part #"
 	1    6900 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Custom_parts:TC4468EOE U3
-U 1 1 64F8812A
-P 3700 5850
-F 0 "U3" H 4200 6107 60  0000 C CNN
-F 1 "MIC4467YWM-TR" H 4200 6001 60  0000 C CNN
-F 2 "Custom Footprints:TC4468EOE" H 4800 6090 60  0001 C CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4200 6001 60  0001 C CNN
-F 4 "Microchip Technology" H 3700 5850 50  0001 C CNN "Manufacturer"
-F 5 "MIC4467YWM-TR" H 3700 5850 50  0001 C CNN "Part #"
-	1    3700 5850
-	1    0    0    -1  
-$EndComp
 Connection ~ 4700 5850
 Connection ~ 3700 6550
 Text Label 6900 4350 2    50   ~ 0
@@ -853,8 +829,6 @@ Wire Wire Line
 	1900 5000 1900 5100
 Wire Wire Line
 	1900 5100 1550 5100
-Text Label 1550 5300 0    50   ~ 0
-Thermistor
 $Comp
 L power:GND #PWR0111
 U 1 1 65045288
@@ -867,10 +841,10 @@ F 3 "" H 3150 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small C3
 U 1 1 65045290
 P 3150 4600
-F 0 "C2" V 3350 4550 50  0000 L CNN
+F 0 "C3" V 3350 4550 50  0000 L CNN
 F 1 "2.2uF" V 3250 4500 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 3150 4600 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 3150 4600 50  0001 C CNN
@@ -888,4 +862,30 @@ Wire Wire Line
 Wire Wire Line
 	4700 6550 4700 6800
 Connection ~ 4700 6550
+Text Label 1550 5300 0    50   ~ 0
+Thermistor
+$Comp
+L power:GND #PWR0116
+U 1 1 61B67D76
+P 1550 5400
+F 0 "#PWR0116" H 1550 5150 50  0001 C CNN
+F 1 "GND" V 1550 5250 50  0000 R CNN
+F 2 "" H 1550 5400 50  0001 C CNN
+F 3 "" H 1550 5400 50  0001 C CNN
+	1    1550 5400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Custom_parts:TC4468EOE U3
+U 1 1 64F8812A
+P 3700 5850
+F 0 "U3" H 4200 6107 60  0000 C CNN
+F 1 "TC4468EOE" H 4200 6001 60  0000 C CNN
+F 2 "Custom Footprints:TC4468EOE" H 4800 6090 60  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4200 6001 60  0001 C CNN
+F 4 "Microchip Technology" H 3700 5850 50  0001 C CNN "Manufacturer"
+F 5 "MIC4467YWM-TR" H 3700 5850 50  0001 C CNN "Part #"
+	1    3700 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
