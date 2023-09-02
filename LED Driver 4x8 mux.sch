@@ -27,15 +27,15 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 4 1 5F58DBB9
-P 7300 4050
-F 0 "J3" H 7400 4700 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 7650 4600 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7300 4075 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7300 4075 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 7300 4050 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 7300 4050 50  0001 C CNN "Part #"
-	4    7300 4050
-	-1   0    0    1   
+P 1150 5000
+F 0 "J3" H 1250 5650 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 1500 5550 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 5025 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 5025 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 1150 5000 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 1150 5000 50  0001 C CNN "Part #"
+	4    1150 5000
+	1    0    0    1   
 $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
@@ -75,15 +75,15 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 2 1 5F589234
-P 1150 5000
-F 0 "J3" H 1250 5650 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 1500 5550 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 5025 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 5025 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 1150 5000 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 1150 5000 50  0001 C CNN "Part #"
-	2    1150 5000
-	1    0    0    1   
+P 7300 6150
+F 0 "J3" H 7400 6800 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 7650 6700 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7300 6175 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7300 6175 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 7300 6150 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 7300 6150 50  0001 C CNN "Part #"
+	2    7300 6150
+	-1   0    0    1   
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
@@ -121,14 +121,14 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 1 1 5F5922AC
-P 7300 6150
-F 0 "J3" H 7350 6800 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 7650 6700 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7300 6175 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7300 6175 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 7300 6150 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 7300 6150 50  0001 C CNN "Part #"
-	1    7300 6150
+P 7300 4050
+F 0 "J3" H 7350 4700 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 7650 4600 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7300 4075 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7300 4075 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 7300 4050 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 7300 4050 50  0001 C CNN "Part #"
+	1    7300 4050
 	-1   0    0    1   
 $EndComp
 Connection ~ 2600 3000
@@ -311,7 +311,7 @@ U 1 1 64EDC858
 P 3600 2850
 F 0 "PS1" H 3625 3115 50  0000 C CNN
 F 1 "PXO7805-500-M-TR" H 3625 3024 50  0000 C CNN
-F 2 "CONV_PXO7805-500-M-TR" H 3100 2550 50  0001 L BNN
+F 2 "Custom Footprints:18V_to_5V_PXO7805-500-M-TR" H 3100 2550 50  0001 L BNN
 F 3 "https://www.cui.com/product/resource/pxo78-500-m.pdf" H 3700 2850 50  0001 L BNN
 F 4 "CUI Inc." H 3600 2850 50  0001 C CNN "Manufacturer"
 F 5 "PXO7805-500-M-TR" H 3600 2850 50  0001 C CNN "Part #"
