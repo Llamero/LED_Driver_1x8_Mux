@@ -97,25 +97,14 @@ F 3 "~" H 4050 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO2
-U 1 1 5FF6ADDD
-P 4550 7450
-F 0 "LOGO2" H 4550 7725 50  0001 C CNN
-F 1 "Jack Polarity" H 4300 7750 50  0000 L CNN
-F 2 "Custom Footprints:Polarity_Center_Positive" H 4550 7450 50  0001 C CNN
-F 3 "~" H 4550 7450 50  0001 C CNN
-	1    4550 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 5FF6B1EE
-P 5050 7450
-F 0 "LOGO3" H 5050 7725 50  0001 C CNN
-F 1 "OSHW Logo" H 4850 7750 50  0000 L CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 5050 7450 50  0001 C CNN
-F 3 "~" H 5050 7450 50  0001 C CNN
-	1    5050 7450
+P 4550 7450
+F 0 "LOGO3" H 4550 7725 50  0001 C CNN
+F 1 "OSHW Logo" H 4350 7750 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 4550 7450 50  0001 C CNN
+F 3 "~" H 4550 7450 50  0001 C CNN
+	1    4550 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -265,84 +254,30 @@ Text Label 7450 6250 2    50   ~ 0
 LED7+
 Text Label 7450 6450 2    50   ~ 0
 LED8+
-$Comp
-L Custom_parts:PXO7805-500-M-TR PS1
-U 1 1 64EDC858
-P 4150 2850
-F 0 "PS1" H 4175 3115 50  0000 C CNN
-F 1 "PXO7805-500-M-TR" H 4175 3024 50  0000 C CNN
-F 2 "Custom Footprints:18V_to_5V_PXO7805-500-M-TR" H 3650 2550 50  0001 L BNN
-F 3 "https://www.cui.com/product/resource/pxo78-500-m.pdf" H 4250 2850 50  0001 L BNN
-F 4 "CUI Inc." H 4150 2850 50  0001 C CNN "Manufacturer"
-F 5 "PXO7805-500-M-TR" H 4150 2850 50  0001 C CNN "Part #"
-	1    4150 2850
-	1    0    0    -1  
-$EndComp
-Text Label 4500 2800 0    50   ~ 0
+Text Label 4650 2800 0    50   ~ 0
 +5V
 $Comp
 L power:GND #PWR0101
 U 1 1 64EE383E
-P 3450 3100
-F 0 "#PWR0101" H 3450 2850 50  0001 C CNN
-F 1 "GND" H 3650 3000 50  0000 R CNN
-F 2 "" H 3450 3100 50  0001 C CNN
-F 3 "" H 3450 3100 50  0001 C CNN
-	1    3450 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 64EE65BC
-P 3850 2900
-F 0 "#PWR0103" H 3850 2650 50  0001 C CNN
-F 1 "GND" H 4050 2800 50  0000 R CNN
-F 2 "" H 3850 2900 50  0001 C CNN
-F 3 "" H 3850 2900 50  0001 C CNN
-	1    3850 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 64EE98B9
-P 4650 2950
-F 0 "C2" H 4765 2996 50  0000 L CNN
-F 1 "22µF" H 4765 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4688 2800 50  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4650 2950 50  0001 C CNN
-F 4 "TDK Corporation" H 4650 2950 50  0001 C CNN "Manufacturer"
-F 5 "C3216X5R1V226M160AC" H 4650 2950 50  0001 C CNN "Part #"
-	1    4650 2950
+P 4050 3000
+F 0 "#PWR0101" H 4050 2750 50  0001 C CNN
+F 1 "GND" H 4250 2900 50  0000 R CNN
+F 2 "" H 4050 3000 50  0001 C CNN
+F 3 "" H 4050 3000 50  0001 C CNN
+	1    4050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 64EE98BF
-P 4650 3100
-F 0 "#PWR0104" H 4650 2850 50  0001 C CNN
-F 1 "GND" H 4850 3000 50  0000 R CNN
-F 2 "" H 4650 3100 50  0001 C CNN
-F 3 "" H 4650 3100 50  0001 C CNN
-	1    4650 3100
+P 4350 3150
+F 0 "#PWR0104" H 4350 2900 50  0001 C CNN
+F 1 "GND" H 4550 3050 50  0000 R CNN
+F 2 "" H 4350 3150 50  0001 C CNN
+F 3 "" H 4350 3150 50  0001 C CNN
+	1    4350 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 2800 4650 2800
-$Comp
-L Device:C C1
-U 1 1 64EEB8D5
-P 3450 2950
-F 0 "C1" H 3565 2996 50  0000 L CNN
-F 1 "22µF" H 3565 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3488 2800 50  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3450 2950 50  0001 C CNN
-F 4 "TDK Corporation" H 3450 2950 50  0001 C CNN "Manufacturer"
-F 5 "C3216X5R1V226M160AC" H 3450 2950 50  0001 C CNN "Part #"
-	1    3450 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 2800 3850 2800
 $Comp
 L power:GND #PWR0102
 U 1 1 61954A86
@@ -355,10 +290,10 @@ F 3 "" H 5250 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C4
+L Device:C_Small C3
 U 1 1 61940B33
 P 5250 3650
-F 0 "C4" V 5450 3600 50  0000 L CNN
+F 0 "C3" V 5450 3600 50  0000 L CNN
 F 1 "2.2uF" V 5350 3550 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 5250 3650 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 5250 3650 50  0001 C CNN
@@ -368,10 +303,10 @@ F 5 "TWK212B7225MD-T" H 5250 3650 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:TC4468EOE U3
+L Custom_parts:TC4468EOE U4
 U 1 1 64F06EE9
 P 4250 3750
-F 0 "U3" H 4750 4007 60  0000 C CNN
+F 0 "U4" H 4750 4007 60  0000 C CNN
 F 1 "TC4468EOE" H 4750 3901 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 5350 3990 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4750 3901 60  0001 C CNN
@@ -381,10 +316,10 @@ F 5 "MIC4467YWM-TR" H 4250 3750 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C4
 U 1 1 64F08194
 P 5250 5750
-F 0 "C5" V 5450 5700 50  0000 L CNN
+F 0 "C4" V 5450 5700 50  0000 L CNN
 F 1 "2.2uF" V 5350 5650 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 5250 5750 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 5250 5750 50  0001 C CNN
@@ -661,10 +596,10 @@ Wire Wire Line
 Wire Wire Line
 	5250 6450 5250 6550
 $Comp
-L Custom_parts:SN74LV138AT_D_16 U1
+L Custom_parts:SN74LV138AT_D_16 U2
 U 1 1 64FF7275
 P 2700 4800
-F 0 "U1" H 3200 5057 60  0000 C CNN
+F 0 "U2" H 3200 5057 60  0000 C CNN
 F 1 "SN74LV138AT_D_16" H 3200 4951 60  0000 C CNN
 F 2 "Custom Footprints:SN74LV138ATD" H 3800 5040 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv138at.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1692988628846&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lv138at" H 2700 4800 60  0001 C CNN
@@ -799,10 +734,10 @@ F 3 "" H 3700 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C3
+L Device:C_Small C2
 U 1 1 65045290
 P 3700 4600
-F 0 "C3" V 3900 4550 50  0000 L CNN
+F 0 "C2" V 3900 4550 50  0000 L CNN
 F 1 "2.2uF" V 3800 4500 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 3700 4600 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 3700 4600 50  0001 C CNN
@@ -834,10 +769,10 @@ F 3 "" H 1550 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:TC4468EOE U2
+L Custom_parts:TC4468EOE U3
 U 1 1 64F8812A
 P 4250 5850
-F 0 "U2" H 4750 6107 60  0000 C CNN
+F 0 "U3" H 4750 6107 60  0000 C CNN
 F 1 "TC4468EOE" H 4750 6001 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 5350 6090 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4750 6001 60  0001 C CNN
@@ -851,9 +786,11 @@ L Connector:Conn_01x02_Female J1
 U 1 1 64F692B9
 P 2100 5300
 F 0 "J1" H 2128 5230 50  0000 L CNN
-F 1 "8P8C_Shielded_x4" H 2128 5185 50  0001 L CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" H 2100 5300 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" H 2100 5300 50  0001 C CNN
+F 1 "2 pin header" H 2128 5185 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Right" H 2100 5300 50  0001 C CNN
+F 3 "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2900/NPxCxx1KFXx-RC%2010487-D.pdf" H 2100 5300 50  0001 C CNN
+F 4 "Sullins Connector Solutions" H 2100 5300 50  0001 C CNN "Manufacturer"
+F 5 "NPTC021KFXC-RC" H 2100 5300 50  0001 C CNN "Part #"
 	1    2100 5300
 	1    0    0    -1  
 $EndComp
@@ -868,10 +805,36 @@ Wire Wire Line
 	1550 5100 2450 5100
 Wire Wire Line
 	1550 5300 1900 5300
-Text Label 3550 2800 0    50   ~ 0
+Text Label 4050 2800 2    50   ~ 0
 LED+
 Text Label 5250 3850 0    50   ~ 0
 LED+
 Text Label 5250 5950 0    50   ~ 0
 LED+
+$Comp
+L Device:C_Small C1
+U 1 1 65365726
+P 4050 2900
+F 0 "C1" H 4150 2850 50  0000 L CNN
+F 1 "2.2uF" H 4150 2950 50  0000 L CNN
+F 2 "Custom Footprints:0508_Capacitor" H 4050 2900 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 4050 2900 50  0001 C CNN
+F 4 "Taiyo Yuden" H 4050 2900 50  0001 C CNN "Manufacturer"
+F 5 "TWK212B7225MD-T" H 4050 2900 50  0001 C CNN "Part #"
+	1    4050 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_parts:NCV7805BDTRKG U1
+U 1 1 65367633
+P 3850 2800
+F 0 "U1" H 4350 3057 60  0000 C CNN
+F 1 "NCV7805BDTRKG" H 4350 2951 60  0000 C CNN
+F 2 "Custom Footprints:12V-5V_lin_reg_NCV7805BDTRKG" H 4750 3040 60  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/mc7800-d.pdf" H 4350 2951 60  0001 C CNN
+F 4 "onsemi" H 3850 2800 50  0001 C CNN "Manufacturer"
+F 5 "NCV7805BDTRKG" H 3850 2800 50  0001 C CNN "Part #"
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
