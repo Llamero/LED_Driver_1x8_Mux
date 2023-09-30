@@ -25,10 +25,10 @@ F 3 "" H 1150 3100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Custom_parts:8P8C_Shielded_x4 J3
+L Custom_parts:8P8C_Shielded_x4 J2
 U 4 1 5F58DBB9
 P 1150 5000
-F 0 "J3" H 1250 5650 50  0000 R CNN
+F 0 "J2" H 1250 5650 50  0000 R CNN
 F 1 "8P8C_Shielded_x4" H 1500 5550 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 5025 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 5025 50  0001 C CNN
@@ -38,10 +38,10 @@ F 5 "RJSSE-5380-04" H 1150 5000 50  0001 C CNN "Part #"
 	1    0    0    1   
 $EndComp
 $Comp
-L Custom_parts:8P8C_Shielded_x4 J3
+L Custom_parts:8P8C_Shielded_x4 J2
 U 3 1 5F57B5E3
 P 1150 3600
-F 0 "J3" H 1250 4250 50  0000 R CNN
+F 0 "J2" H 1250 4250 50  0000 R CNN
 F 1 "8P8C_Shielded_x4" H 1500 4150 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 3625 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 3625 50  0001 C CNN
@@ -73,10 +73,10 @@ F 3 "" H 7850 3550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Custom_parts:8P8C_Shielded_x4 J3
+L Custom_parts:8P8C_Shielded_x4 J2
 U 2 1 5F589234
 P 7850 6150
-F 0 "J3" H 7950 6800 50  0000 R CNN
+F 0 "J2" H 7950 6800 50  0000 R CNN
 F 1 "8P8C_Shielded_x4" H 8200 6700 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7850 6175 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7850 6175 50  0001 C CNN
@@ -119,10 +119,10 @@ F 3 "~" H 5050 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:8P8C_Shielded_x4 J3
+L Custom_parts:8P8C_Shielded_x4 J2
 U 1 1 5F5922AC
 P 7850 4050
-F 0 "J3" H 7900 4700 50  0000 R CNN
+F 0 "J2" H 7900 4700 50  0000 R CNN
 F 1 "8P8C_Shielded_x4" H 8200 4600 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7850 4075 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7850 4075 50  0001 C CNN
@@ -131,35 +131,6 @@ F 5 "RJSSE-5380-04" H 7850 4050 50  0001 C CNN "Part #"
 	1    7850 4050
 	-1   0    0    1   
 $EndComp
-Connection ~ 3150 3000
-Wire Wire Line
-	3150 2900 3150 3000
-$Comp
-L power:GND #PWR0108
-U 1 1 61A65F9D
-P 3150 3000
-F 0 "#PWR0108" H 3150 2750 50  0001 C CNN
-F 1 "GND" H 3350 2900 50  0000 R CNN
-F 2 "" H 3150 3000 50  0001 C CNN
-F 3 "" H 3150 3000 50  0001 C CNN
-	1    3150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Barrel_Jack_Switch J1
-U 1 1 61A65FA5
-P 2850 2900
-F 0 "J1" H 2907 3217 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 2907 3126 50  0000 C CNN
-F 2 "Custom Footprints:DC-jack_54-00165" H 2900 2860 50  0001 C CNN
-F 3 "https://tensility.s3-us-west-2.amazonaws.com/uploads/product_doc/document/4054/54-00165.pdf" H 2900 2860 50  0001 C CNN
-F 4 "Tensility International Corp" H 2850 2900 50  0001 C CNN "Manufacturer"
-F 5 "54-00165" H 2850 2900 50  0001 C CNN "Part #"
-	1    2850 2900
-	1    0    0    -1  
-$EndComp
-Text Label 3150 2800 0    50   ~ 0
-+18V
 $Comp
 L power:GND #PWR015
 U 1 1 5F59943B
@@ -371,10 +342,7 @@ F 5 "C3216X5R1V226M160AC" H 3450 2950 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 2800 3450 2800
-Wire Wire Line
 	3450 2800 3850 2800
-Connection ~ 3450 2800
 $Comp
 L power:GND #PWR0102
 U 1 1 61954A86
@@ -400,10 +368,10 @@ F 5 "TWK212B7225MD-T" H 5250 3650 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:TC4468EOE U2
+L Custom_parts:TC4468EOE U3
 U 1 1 64F06EE9
 P 4250 3750
-F 0 "U2" H 4750 4007 60  0000 C CNN
+F 0 "U3" H 4750 4007 60  0000 C CNN
 F 1 "TC4468EOE" H 4750 3901 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 5350 3990 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4750 3901 60  0001 C CNN
@@ -441,10 +409,6 @@ Wire Wire Line
 Connection ~ 5250 3750
 Wire Wire Line
 	5250 5950 5250 5850
-Text Label 5250 3850 0    50   ~ 0
-+18V
-Text Label 5250 5950 0    50   ~ 0
-+18V
 Wire Wire Line
 	4250 6450 4250 6550
 Wire Wire Line
@@ -473,10 +437,10 @@ F 3 "" H 4250 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q1
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q4
 U 1 1 64F4537D
 P 7450 3000
-F 0 "Q1" H 6500 2851 60  0000 C CNN
+F 0 "Q4" H 6500 2851 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 6500 2875 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 2815 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 2851 60  0001 C CNN
@@ -584,10 +548,10 @@ Gate7
 Text Label 5950 6950 2    50   ~ 0
 Gate8
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q2
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q3
 U 1 1 64F7C414
 P 7450 4050
-F 0 "Q2" H 6500 3901 60  0000 C CNN
+F 0 "Q3" H 6500 3901 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 6500 3925 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 3865 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 3901 60  0001 C CNN
@@ -597,10 +561,10 @@ F 5 "IRF9358TRPBF" H 7450 4050 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q3
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q2
 U 1 1 64F7E6DD
 P 7450 5100
-F 0 "Q3" H 6500 4951 60  0000 C CNN
+F 0 "Q2" H 6500 4951 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 6500 4975 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 4915 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 4951 60  0001 C CNN
@@ -610,10 +574,10 @@ F 5 "IRF9358TRPBF" H 7450 5100 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:IRF9358TRPBF-2x_p-channel Q4
+L Custom_parts:IRF9358TRPBF-2x_p-channel Q1
 U 1 1 64F81FE0
 P 7450 6150
-F 0 "Q4" H 6500 6001 60  0000 C CNN
+F 0 "Q1" H 6500 6001 60  0000 C CNN
 F 1 "IRF9358TRPBF-2x_p-channel" H 6500 6025 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 5965 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 6001 60  0001 C CNN
@@ -870,10 +834,10 @@ F 3 "" H 1550 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:TC4468EOE U3
+L Custom_parts:TC4468EOE U2
 U 1 1 64F8812A
 P 4250 5850
-F 0 "U3" H 4750 6107 60  0000 C CNN
+F 0 "U2" H 4750 6107 60  0000 C CNN
 F 1 "TC4468EOE" H 4750 6001 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 5350 6090 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4750 6001 60  0001 C CNN
@@ -883,29 +847,16 @@ F 5 "MIC4467YWM-TR" H 4250 5850 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J2
+L Connector:Conn_01x02_Female J1
 U 1 1 64F692B9
 P 2100 5300
-F 0 "J2" H 2128 5230 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 2128 5185 50  0001 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm" H 2100 5300 50  0001 C CNN
-F 3 "~" H 2100 5300 50  0001 C CNN
+F 0 "J1" H 2128 5230 50  0000 L CNN
+F 1 "8P8C_Shielded_x4" H 2128 5185 50  0001 L CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" H 2100 5300 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" H 2100 5300 50  0001 C CNN
 	1    2100 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 64FA019D
-P 1800 5300
-F 0 "JP1" H 1800 5250 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1800 5394 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1800 5300 50  0001 C CNN
-F 3 "~" H 1800 5300 50  0001 C CNN
-	1    1800 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 5300 1550 5300
 Wire Wire Line
 	1900 5400 1550 5400
 Connection ~ 1550 5400
@@ -915,4 +866,12 @@ Wire Wire Line
 	1550 4900 2700 4900
 Wire Wire Line
 	1550 5100 2450 5100
+Wire Wire Line
+	1550 5300 1900 5300
+Text Label 3550 2800 0    50   ~ 0
+LED+
+Text Label 5250 3850 0    50   ~ 0
+LED+
+Text Label 5250 5950 0    50   ~ 0
+LED+
 $EndSCHEMATC
