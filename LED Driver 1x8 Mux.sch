@@ -33,7 +33,7 @@ F 1 "8P8C_Shielded_x4" H 1500 5550 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 5025 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 5025 50  0001 C CNN
 F 4 "Amphenol ICC (Commercial Products)" H 1150 5000 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 1150 5000 50  0001 C CNN "Part #"
+F 5 "RJSSE-5380-04" H 1150 5000 50  0001 C CNN "Part"
 	4    1150 5000
 	1    0    0    1   
 $EndComp
@@ -46,7 +46,7 @@ F 1 "8P8C_Shielded_x4" H 1500 4150 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 1150 3625 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 1150 3625 50  0001 C CNN
 F 4 "Amphenol ICC (Commercial Products)" H 1150 3600 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 1150 3600 50  0001 C CNN "Part #"
+F 5 "RJSSE-5380-04" H 1150 3600 50  0001 C CNN "Part"
 	3    1150 3600
 	1    0    0    1   
 $EndComp
@@ -81,7 +81,7 @@ F 1 "8P8C_Shielded_x4" H 8200 6700 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7850 6175 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7850 6175 50  0001 C CNN
 F 4 "Amphenol ICC (Commercial Products)" H 7850 6150 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 7850 6150 50  0001 C CNN "Part #"
+F 5 "RJSSE-5380-04" H 7850 6150 50  0001 C CNN "Part"
 	2    7850 6150
 	-1   0    0    1   
 $EndComp
@@ -116,7 +116,7 @@ F 1 "8P8C_Shielded_x4" H 8200 4600 50  0000 R CNN
 F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7850 4075 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7850 4075 50  0001 C CNN
 F 4 "Amphenol ICC (Commercial Products)" H 7850 4050 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 7850 4050 50  0001 C CNN "Part #"
+F 5 "RJSSE-5380-04" H 7850 4050 50  0001 C CNN "Part"
 	1    7850 4050
 	-1   0    0    1   
 $EndComp
@@ -254,30 +254,6 @@ Text Label 7450 6250 2    50   ~ 0
 LED7+
 Text Label 7450 6450 2    50   ~ 0
 LED8+
-Text Label 4650 2800 0    50   ~ 0
-+5V
-$Comp
-L power:GND #PWR0101
-U 1 1 64EE383E
-P 4050 3000
-F 0 "#PWR0101" H 4050 2750 50  0001 C CNN
-F 1 "GND" H 4250 2900 50  0000 R CNN
-F 2 "" H 4050 3000 50  0001 C CNN
-F 3 "" H 4050 3000 50  0001 C CNN
-	1    4050 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 64EE98BF
-P 4350 3150
-F 0 "#PWR0104" H 4350 2900 50  0001 C CNN
-F 1 "GND" H 4550 3050 50  0000 R CNN
-F 2 "" H 4350 3150 50  0001 C CNN
-F 3 "" H 4350 3150 50  0001 C CNN
-	1    4350 3150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 61954A86
@@ -298,7 +274,7 @@ F 1 "2.2uF" V 5350 3550 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 5250 3650 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 5250 3650 50  0001 C CNN
 F 4 "Taiyo Yuden" H 5250 3650 50  0001 C CNN "Manufacturer"
-F 5 "TWK212B7225MD-T" H 5250 3650 50  0001 C CNN "Part #"
+F 5 "TWK212B7225MD-T" H 5250 3650 50  0001 C CNN "Part"
 	1    5250 3650
 	1    0    0    -1  
 $EndComp
@@ -311,7 +287,7 @@ F 1 "TC4468EOE" H 4750 3901 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 5350 3990 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4750 3901 60  0001 C CNN
 F 4 "Microchip Technology" H 4250 3750 50  0001 C CNN "Manufacturer"
-F 5 "MIC4467YWM-TR" H 4250 3750 50  0001 C CNN "Part #"
+F 5 "MIC4467YWM-TR" H 4250 3750 50  0001 C CNN "Part"
 	1    4250 3750
 	1    0    0    -1  
 $EndComp
@@ -324,7 +300,7 @@ F 1 "2.2uF" V 5350 5650 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 5250 5750 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 5250 5750 50  0001 C CNN
 F 4 "Taiyo Yuden" H 5250 5750 50  0001 C CNN "Manufacturer"
-F 5 "TWK212B7225MD-T" H 5250 5750 50  0001 C CNN "Part #"
+F 5 "TWK212B7225MD-T" H 5250 5750 50  0001 C CNN "Part"
 	1    5250 5750
 	1    0    0    -1  
 $EndComp
@@ -380,7 +356,7 @@ F 1 "IRF9358TRPBF-2x_p-channel" H 6500 2875 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 2815 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 2851 60  0001 C CNN
 F 4 "Infineon Technologies" H 7450 3000 50  0001 C CNN "Manufacturer"
-F 5 "IRF9358TRPBF" H 7450 3000 50  0001 C CNN "Part #"
+F 5 "IRF9358TRPBF" H 7450 3000 50  0001 C CNN "Part"
 	1    7450 3000
 	1    0    0    -1  
 $EndComp
@@ -491,7 +467,7 @@ F 1 "IRF9358TRPBF-2x_p-channel" H 6500 3925 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 3865 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 3901 60  0001 C CNN
 F 4 "Infineon Technologies" H 7450 4050 50  0001 C CNN "Manufacturer"
-F 5 "IRF9358TRPBF" H 7450 4050 50  0001 C CNN "Part #"
+F 5 "IRF9358TRPBF" H 7450 4050 50  0001 C CNN "Part"
 	1    7450 4050
 	1    0    0    -1  
 $EndComp
@@ -504,7 +480,7 @@ F 1 "IRF9358TRPBF-2x_p-channel" H 6500 4975 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 4915 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 4951 60  0001 C CNN
 F 4 "Infineon Technologies" H 7450 5100 50  0001 C CNN "Manufacturer"
-F 5 "IRF9358TRPBF" H 7450 5100 50  0001 C CNN "Part #"
+F 5 "IRF9358TRPBF" H 7450 5100 50  0001 C CNN "Part"
 	1    7450 5100
 	1    0    0    -1  
 $EndComp
@@ -517,7 +493,7 @@ F 1 "IRF9358TRPBF-2x_p-channel" H 6500 6025 60  0001 C CNN
 F 2 "Custom Footprints:IRF9358TRPBF-2x_p-channel" H 6500 5965 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6500 6001 60  0001 C CNN
 F 4 "Infineon Technologies" H 7450 6150 50  0001 C CNN "Manufacturer"
-F 5 "IRF9358TRPBF" H 7450 6150 50  0001 C CNN "Part #"
+F 5 "IRF9358TRPBF" H 7450 6150 50  0001 C CNN "Part"
 	1    7450 6150
 	1    0    0    -1  
 $EndComp
@@ -604,7 +580,7 @@ F 1 "SN74LV138AT_D_16" H 3200 4951 60  0000 C CNN
 F 2 "Custom Footprints:SN74LV138ATD" H 3800 5040 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv138at.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1692988628846&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lv138at" H 2700 4800 60  0001 C CNN
 F 4 "Texas Instruments" H 2700 4800 50  0001 C CNN "Manufacturer"
-F 5 "SN74LV138ATD" H 2700 4800 50  0001 C CNN "Part #"
+F 5 "SN74LV138ATD" H 2700 4800 50  0001 C CNN "Part"
 	1    2700 4800
 	1    0    0    -1  
 $EndComp
@@ -742,7 +718,7 @@ F 1 "2.2uF" V 3800 4500 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 3700 4600 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 3700 4600 50  0001 C CNN
 F 4 "Taiyo Yuden" H 3700 4600 50  0001 C CNN "Manufacturer"
-F 5 "TWK212B7225MD-T" H 3700 4600 50  0001 C CNN "Part #"
+F 5 "TWK212B7225MD-T" H 3700 4600 50  0001 C CNN "Part"
 	1    3700 4600
 	1    0    0    -1  
 $EndComp
@@ -777,7 +753,7 @@ F 1 "TC4468EOE" H 4750 6001 60  0000 C CNN
 F 2 "Custom Footprints:TC4468EOE" H 5350 6090 60  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf" H 4750 6001 60  0001 C CNN
 F 4 "Microchip Technology" H 4250 5850 50  0001 C CNN "Manufacturer"
-F 5 "MIC4467YWM-TR" H 4250 5850 50  0001 C CNN "Part #"
+F 5 "MIC4467YWM-TR" H 4250 5850 50  0001 C CNN "Part"
 	1    4250 5850
 	1    0    0    -1  
 $EndComp
@@ -798,43 +774,67 @@ Wire Wire Line
 	1900 5400 1550 5400
 Connection ~ 1550 5400
 Wire Wire Line
-	1550 4700 2450 4700
-Wire Wire Line
 	1550 4900 2700 4900
 Wire Wire Line
 	1550 5100 2450 5100
 Wire Wire Line
 	1550 5300 1900 5300
-Text Label 4050 2800 2    50   ~ 0
-LED+
 Text Label 5250 3850 0    50   ~ 0
 LED+
 Text Label 5250 5950 0    50   ~ 0
 LED+
+Text Label 3000 3900 0    50   ~ 0
++5V
 $Comp
-L Device:C_Small C1
-U 1 1 65365726
-P 4050 2900
-F 0 "C1" H 4150 2850 50  0000 L CNN
-F 1 "2.2uF" H 4150 2950 50  0000 L CNN
-F 2 "Custom Footprints:0508_Capacitor" H 4050 2900 50  0001 C CNN
-F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 4050 2900 50  0001 C CNN
-F 4 "Taiyo Yuden" H 4050 2900 50  0001 C CNN "Manufacturer"
-F 5 "TWK212B7225MD-T" H 4050 2900 50  0001 C CNN "Part #"
-	1    4050 2900
-	-1   0    0    1   
+L power:GND #PWR0101
+U 1 1 6521182E
+P 2400 4100
+F 0 "#PWR0101" H 2400 3850 50  0001 C CNN
+F 1 "GND" H 2600 4000 50  0000 R CNN
+F 2 "" H 2400 4100 50  0001 C CNN
+F 3 "" H 2400 4100 50  0001 C CNN
+	1    2400 4100
+	1    0    0    -1  
 $EndComp
 $Comp
+L power:GND #PWR0103
+U 1 1 65211838
+P 2700 4250
+F 0 "#PWR0103" H 2700 4000 50  0001 C CNN
+F 1 "GND" H 2900 4150 50  0000 R CNN
+F 2 "" H 2700 4250 50  0001 C CNN
+F 3 "" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+Text Label 2400 3900 2    50   ~ 0
+LED+
+$Comp
+L Device:C_Small C1
+U 1 1 65211845
+P 2400 4000
+F 0 "C1" H 2500 3950 50  0000 L CNN
+F 1 "2.2uF" H 2500 4050 50  0000 L CNN
+F 2 "Custom Footprints:0508_Capacitor" H 2400 4000 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK212B7225MD-T%20&u=M" H 2400 4000 50  0001 C CNN
+F 4 "Taiyo Yuden" H 2400 4000 50  0001 C CNN "Manufacturer"
+F 5 "TWK212B7225MD-T" H 2400 4000 50  0001 C CNN "Part"
+	1    2400 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 4700 2450 4700
+$Comp
 L Custom_parts:NCV7805BDTRKG U1
-U 1 1 65367633
-P 3850 2800
-F 0 "U1" H 4350 3057 60  0000 C CNN
-F 1 "NCV7805BDTRKG" H 4350 2951 60  0000 C CNN
-F 2 "Custom Footprints:12V-5V_lin_reg_NCV7805BDTRKG" H 4750 3040 60  0001 C CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/mc7800-d.pdf" H 4350 2951 60  0001 C CNN
-F 4 "onsemi" H 3850 2800 50  0001 C CNN "Manufacturer"
-F 5 "NCV7805BDTRKG" H 3850 2800 50  0001 C CNN "Part #"
-	1    3850 2800
+U 1 1 65211851
+P 2200 3900
+F 0 "U1" H 2700 4157 60  0000 C CNN
+F 1 "NCV7805BDTRKG" H 2700 4051 60  0000 C CNN
+F 2 "Custom Footprints:12V-5V_lin_reg_NCV7805BDTRKG" H 3100 4140 60  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/mc7800-d.pdf" H 2700 4051 60  0001 C CNN
+F 4 "onsemi" H 2200 3900 50  0001 C CNN "Manufacturer"
+F 5 "NCV7805BDTRKG" H 2200 3900 50  0001 C CNN "Part"
+	1    2200 3900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
